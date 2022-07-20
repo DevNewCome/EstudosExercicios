@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      <p> Menos de 15 minutos paga 2 reais/</p>
+      <p> A cada 15 minutos é acrescido 4 reais, </p>
+      <p> após os 15 minutos, cobrar integralmente os 4 reais</p>
+      <p>valor a cada 15 minutos
+        <input type="number" required min="1" id="inMinutes">
+      </p>
+      <p>tempo de uso em minutos
+        <input type="number" required min="1" id="inMinutesCliente">
+      </p>
+      <input type="submit" value="calcular">
+      <h3 id="total"></h3>
+    </form>
+    
+    <script src="script.js" ></script>
+  </body>
+</html>
